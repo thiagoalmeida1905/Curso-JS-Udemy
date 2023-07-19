@@ -49,11 +49,11 @@ class ValidaCPF {
 
 
 
-let validacpf = new ValidaCPF ('070.987.720-03');
+// let validacpf = new ValidaCPF ('070.987.720-03');
 
 
-if (validacpf.valida()){
-    console.log('CPF válido');
-} else {
-    console.log('CPF inválido');
-}
+// if (validacpf.valida()){
+//     console.log('CPF válido');
+// } else {
+//     console.log('CPF inválido');
+// }
