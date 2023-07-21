@@ -3,7 +3,7 @@
 const request = obj => {
     return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    xhr.open(obj.method, obj.url, true);//parametros de obj
+    xhr.open(obj.method, obj.url, true);//método que configura a requisição antes de envia-la, recebe esses parametros
     xhr.send();
     xhr.addEventListener('load', () => {
         if(xhr.status >= 200 && xhr.status < 300) {//status é o numero do erro, 200 a 300 = sucesso
