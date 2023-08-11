@@ -8,10 +8,10 @@ function falaOi() {
 
 // Função é First-class objects
 
-const souUmSoldado = function () {
+const souUmDado = function () {
     console.log('Sou um dado.');
 };
-souUmSoldado();
+souUmDado();
 
 // Arrow Function
 const funcaoArrow = () => {
